@@ -1,9 +1,8 @@
---Using nesting techniques, bring together three queries so that you 			
---can show annual sales by ProductAlternateKey in 2007 side-by-side with 
---the corresponding sales for 2006. Be sure to join the 3 nested queries 
---in a way so that each product in the first set is preserved in the 
---final results, regardless of whether that product had sales in either 
---2006 or 2007.
+--Problem: Bring together three queries so that you show annual sales by 
+--ProductAlternateKey in 2007 side-by-side with the corresponding sales for 
+--2006. Be sure to join the 3 nested queries in a way so that each product 
+--in the first set is preserved in the final results, regardless of whether 
+--that product had sales in either 2006 or 2007.
 
 SELECT
 	x.ProductAlternateKey,
