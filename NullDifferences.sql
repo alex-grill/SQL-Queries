@@ -11,10 +11,10 @@
 --remained about the same between 2006 and 2007. How could both parties have
 --such differing views of the situation?
 
---Provide a SQL query evaluating discount amounts applied to 'Bikes' in
---calendar years 2006 & 2007. Include averages of discount amount (with no 
--- consideration of order quantities) that reflect both the CMO and the 
--- reseller's point of views.
+--Problem: Provide a SQL query evaluating discount amounts applied to 'Bikes' 
+--in calendar years 2006 & 2007. Include averages of discount amount (with no 
+--consideration of order quantities) that reflect both the CMO and the 
+--reseller's point of views.
 
 SELECT
 	b.CalendarYear,
